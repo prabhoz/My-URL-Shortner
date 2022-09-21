@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from "axios";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { Container, Row, Col, Form, Card, Button, ListGroup } from 'react-bootstrap';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.scss';
@@ -8,20 +9,15 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container className='main-area pt-5'>
+        <Row>
+          <Col>
+            <h5 className="card-header text-center">
+              Welcome to the URL Shortner
+            </h5>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
