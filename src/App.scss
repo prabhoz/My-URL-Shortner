@@ -13,5 +13,19 @@
     .short-link {
       padding-right: 25px;
     }
+
+    @include media-breakpoint-down(sm) {
+      flex-flow: column;
+      align-items: flex-start;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .card {
+      button {
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
   }
 }
