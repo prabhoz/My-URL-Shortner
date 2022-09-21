@@ -1,5 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+import axios from "axios";
+import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.scss';
 
 function App() {
