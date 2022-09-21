@@ -14,13 +14,9 @@ $ npm install -g json-server
 ```
 
 ### Usage
-
   
 ```bash
-# Run the server to start mock data API
-$ npm run server
-
-# Run the client
+# Run the client & server both
 $ npm run start
 
 # Server runs on http://localhost:5000 and client on http://localhost:3000
