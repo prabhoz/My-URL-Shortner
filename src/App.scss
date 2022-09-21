@@ -3,4 +3,15 @@
 #root {
   background-color: #007bff;
   min-height: 100vh;
+
+  .list-group-item {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .short-link {
+      padding-right: 25px;
+    }
+  }
 }
