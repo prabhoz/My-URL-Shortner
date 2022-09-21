@@ -12,3 +12,16 @@ $ npm install
 # Install dependencies for mock data
 $ npm install -g json-server
 ```
+
+### Usage
+
+  
+```bash
+# Run the server to start mock data API
+$ npm run server
+
+# Run the client
+$ npm run start
+
+# Server runs on http://localhost:5000 and client on http://localhost:3000
+```
